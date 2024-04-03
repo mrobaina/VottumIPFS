@@ -1,5 +1,5 @@
 // Fetch NFT data from Vottun API
-fetch('https://api.vottun.tech/nft/v1/all')
+fetch('https://ipfsgw.vottun.tech/ipfs/bafkreie7ohmdke3sjo4ezhq2ppa57vsz2ifv4kvq5e7icgs4relwz4ol5a')
     .then(response => response.json())
     .then(data => {
         // Process the data and display NFTs
